@@ -17,7 +17,7 @@ OpenStack的映像檔服務(Image service)包含了以下幾個元件：
 - 使用者可以透過 Horizon 呼叫 Glance API 來管理 image。
 - 在使用 Glance API 之前，都需要通過 Keystone 的認證。
 
-[openstack](https://kairen.gitbooks.io/openstack-liberty/content/conceptions/glance/images/glance_architecture.png)
+![openstack](https://kairen.gitbooks.io/openstack-liberty/content/conceptions/glance/images/glance_architecture.png)
 
 ## OpenStack Nova
 OpenStack的Nova套件提供了Compute Service ，在整個 IaaS 的架構中是屬於最主要的部份，同時會向 Identity Service 進行認證授權、向 Image Service 要求 image、將資料提供給 Dashboard …. 等等。
@@ -26,7 +26,7 @@ OpenStack 運算互動於OpenStack登入驗證、OpenStack Image service的磁�
 
 Nova是一個管理運算資源的套件，因而被稱為一個運算套件。
 ![openstack](https://kairen.gitbooks.io/openstack-liberty/content/conceptions/nova/images/nova_architecture.svg)
-![openstack](https://kairen.gitbooks.io/openstack-liberty/content/conceptions/nova/images/nova_architecture.svg)
+
 
 參考資料｜
 - https://goo.gl/GBDUT8
